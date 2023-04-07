@@ -1,0 +1,20 @@
+
+
+    1-Take the row and column numbers from the user, then take the number of mines.
+    2-Create the game board as a two-dimensional array and fill all elements with an empty character (e.g. '-').
+    3-Randomly place the mines. You can create another two-dimensional array to keep track of the positions of the mines.
+        When the mines are randomly placed, mark the position of each mine as "true" in this array.
+    4-Show the game board to the user and ask them to enter a coordinate.
+    5-Check the position of the user's input coordinate on the game board and if there is a mine at that position,
+        the user loses the game, otherwise the game continues.
+    6-If the user manages to open all empty cells without touching any mines, they win the game.
+
+
+    1-Kullanıcıdan satır ve sütun sayılarını, ardından mayın sayısını alın.
+    2-Oyun tahtasını iki boyutlu bir dizi olarak oluşturun ve tüm elemanları boş bir karakter (örneğin '-') ile doldurun.
+    3-Mayınları rastgele yerleştirin. Mayınların konumunu takip etmek için bir başka iki boyutlu bir dizi oluşturabilirsin.
+        Mayınlar rastgele yerleştirildiğinde, her bir mayının konumunu bu dizide "true" olarak işaretleyin.
+    4-Kullanıcıya oyun tahtasını gösterin ve kullanıcının bir koordinat girmesini isteyin.
+    5-Kullanıcının girdiği koordinatın oyun tahtasındaki konumunu kontrol edin ve bu konumda bir mayın varsa oyunu kaybetmesini,
+        yoksa oyunun devam etmesini sağlayın.
+    6-Kullanıcının herhangi bir mayına dokunmadan tüm boş hücreleri açması durumunda, oyunu kazanmasını sağlayın.
